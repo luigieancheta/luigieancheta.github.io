@@ -30,7 +30,7 @@ p {
     .header {
         background-color: #2F4858;
     }
-
+    
     .header h1 {
         color: #fff;
         font-family: 'Open Sans', sans-serif;
@@ -59,9 +59,8 @@ p {
         color: #aaa;
         font-size: 0.9em;
     }
-.header .tagline {
-    margin: 20px 0;
-}
+        margin: 20px 0;
+    }
     /* /header */
 
     /* CTA */
@@ -85,3 +84,4 @@ p {
 /* Desktop */
 
 /* /Desktop */
+
