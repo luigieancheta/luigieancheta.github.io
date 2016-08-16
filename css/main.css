@@ -59,6 +59,7 @@ p {
         color: #aaa;
         font-size: 0.9em;
     }
+    .header .tagline {
         margin: 20px 0;
     }
     /* /header */
