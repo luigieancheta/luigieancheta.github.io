@@ -1,0 +1,84 @@
+/* General */
+html, body {
+    margin: 0;
+    background-color: #2F4858;
+}
+.header{
+    text-align: center;
+    padding: 20px 2.5%;
+}
+/* Layout/Positioning */
+.wrapper{
+    margin: 0 2.5%;
+}
+
+/* Color */
+
+/* Typography */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-family: 'Lora', serif;
+}
+
+/* Specific components */
+    /* header */
+    .header h1 {
+        margin: 0;
+    }
+    .header {
+        background-color: #2F4858;
+    }
+    
+    .header h1 {
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .header h2 {
+        color: #F6AE2D;
+        font-family: 'Lora', serif;
+    }
+    .header h1 {
+        font-size: 3em;
+    }
+    .header h2 {
+        margin: 0;
+        padding: 10px 0;
+        font-size: 1.2em;
+    }
+    .header hr {
+        border: 0;
+        border-bottom: 1px dashed #ccc;
+    }
+    .header p {
+        color: #fff;
+        line-height: 1.5;
+    }
+    .header .availability {
+        color: #aaa;
+        font-size: 0.9em;
+    }
+    /* /header */
+
+    /* CTA */
+    .cta:link {
+        display:block;
+        margin: 10px 0;
+        padding: 10px 15px;
+        color: #2F4858;
+        background-color: #F6AE2D;
+        font-weight: 900;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    .cta:hover {
+        text-decoration: underline;
+    }
+    /* /CTA */
+/* /Specific components */
+
+/* Desktop */
+
+/* /Desktop */
+
