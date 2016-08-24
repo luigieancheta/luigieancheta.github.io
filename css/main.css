@@ -1,88 +1,131 @@
-/* General */
-html, body {
-    margin: 0;
-    background-color: #2F4858;
+body {
+margin: 0;
+background-color: #2F4858;
 }
 .header{
-    text-align: center;
-    padding: 20px 2.5%;
+text-align: center;
+padding: 20px 2.5%;
 }
-/* Layout/Positioning */
+
 .wrapper{
-    margin: 0 2.5%;
+margin: 0 2.5%;
 }
 
-/* Color */
-
-/* Typography */
 body {
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
+
 p {
-    font-family: 'Lora', serif;
+font-family: 'Lora', serif;
 }
 
-/* Specific components */
-    /* header */
-    .header h1 {
-        margin: 0;
-    }
+.header h1 {
+margin: 0;
+}
+.header {
+background-color: #2F4858;
+}
+
+.header h1 {
+color: #fff;
+font-family: 'Open Sans', sans-serif;
+text-shadow: 0 2px 2px #333;
+}
+
+.header h2 {
+color: #F6AE2D;
+font-family: 'Lora', serif;
+text-shadow: 0 2px 2px #333;
+}
+
+.header h1 {
+font-size: 3em;
+}
+
+.header h2 {
+margin: 0;
+padding: 10px 0;
+font-size: 1.2em;
+}
+
+.header hr {
+border: 0;
+border-bottom: 1px dashed #ccc;
+}
+
+.header p {
+color: #fff;
+line-height: 1.5;
+text-shadow: 0 2px 2px #333;
+}
+
+.header .availability {
+color: #aaa;
+font-size: 0.9em;
+}
+
+.header .tagline {
+margin: 20px 0;
+}
+
+.cta {
+margin: 10px 0;
+background-color: #F6AE2D;
+border-radius: 5px;
+margin: 30px 0;
+box-shadow: 0 2px 2px #333;
+}
+
+.cta a {
+  color: #2F4858;
+}
+.cta a:link{
+padding: 10px 15px;
+display: block;
+font-weight: 800;
+text-decoration: none;
+}
+
+.cta a:hover {
+text-decoration: underline;
+}
+.cta a:active {
+color: darkred;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right:0;
+  width: 100%;
+  background-color: red;
+  color: #ddd;
+  font-size: .8em;
+}
+footer p {
+  text-align: right;
+  margin: 0;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
     .header {
-        background-color: #2F4858;
+      max-width: 960px;
+      margin: 50px auto 0 auto;
     }
-    
-    .header h1 {
-        color: #fff;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .header h2 {
-        color: #F6AE2D;
-        font-family: 'Lora', serif;
+    .cta {
+      width: 300px;
+      margin: 10px auto 0 auto;
     }
     .header h1 {
-        font-size: 3em;
+      margin: 10px 0;
     }
     .header h2 {
-        margin: 0;
-        padding: 10px 0;
-        font-size: 1.2em;
+      margin-bottom: 30px;
     }
-    .header hr {
-        border: 0;
-        border-bottom: 1px dashed #ccc;
+    .header .availability{
+      margin-bottom: 50px;
     }
-    .header p {
-        color: #fff;
-        line-height: 1.5;
-    }
-    .header .availability {
-        color: #aaa;
-        font-size: 0.9em;
-    }
-    .header .tagline {
-        margin: 20px 0;
-    }
-    /* /header */
-
-    /* CTA */
-    .cta:link {
-        display: block;
-        margin: 10px 0;
-        padding: 10px 15px;
-        color: #2F4858;
-        background-color: #F6AE2D;
-        font-weight: 800;
-        text-decoration: none;
-        border-radius: 5px;
-        margin: 30px 0;
-    }
-    .cta:hover {
-        text-decoration: underline;
-    }
-    /* /CTA */
-/* /Specific components */
-
-/* Desktop */
-
-/* /Desktop */
-
+  }
+}
