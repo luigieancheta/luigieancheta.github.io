@@ -1,131 +1,307 @@
-body {
-margin: 0;
-background-color: #2F4858;
-}
-.header{
-text-align: center;
-padding: 20px 2.5%;
-}
-
-.wrapper{
-margin: 0 2.5%;
-}
+@import 'https://fonts.googleapis.com/css?family=Lora:400,400i,700|Open+Sans:400,700';
 
 body {
-font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  background-color: #26547C;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 p {
-font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
 }
 
-.header h1 {
-margin: 0;
-}
-.header {
-background-color: #2F4858;
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #FCFCFC;
+  font-weight: bold;
 }
 
-.header h1 {
+.navbar-default .navbar-brand {
+  padding-left: 10px;
+}
+
+.my_logo img {
+  width: 34px;
+  height: 34px;
+  float: left;
+  margin-top: 7px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+background-color: #EF476F;
 color: #fff;
-font-family: 'Open Sans', sans-serif;
-text-shadow: 0 2px 2px #333;
 }
 
-.header h2 {
-color: #F6AE2D;
-font-family: 'Lora', serif;
-text-shadow: 0 2px 2px #333;
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+color: #FCFCFC;
 }
 
-.header h1 {
-font-size: 3em;
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff;
 }
 
-.header h2 {
-margin: 0;
-padding: 10px 0;
-font-size: 1.2em;
+.jumbotron {
+  padding: 100px 0 30px;
+  background-color: #fff;
+  color: #555;
 }
 
-.header hr {
-border: 0;
-border-bottom: 1px dashed #ccc;
+.jumbotron p {
+  font-size: 1.4em;
+  line-height: 1.6;
 }
 
-.header p {
-color: #fff;
-line-height: 1.5;
-text-shadow: 0 2px 2px #333;
+br {
+  line-height: 2;
 }
 
-.header .availability {
-color: #aaa;
-font-size: 0.9em;
+.jumbotron p:first-child {
+  font-size: 3em;
 }
 
-.header .tagline {
-margin: 20px 0;
+.myImage{
+  width: 180px;
+  height: 180px;
+  background-image: url('http://s25.postimg.org/6b22if0e7/luigieancheta_square.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1px;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.8);
+  margin: auto;
 }
 
-.cta {
-margin: 10px 0;
-background-color: #F6AE2D;
-border-radius: 5px;
-margin: 30px 0;
-box-shadow: 0 2px 2px #333;
+.tagline {
+  margin: 20px 0;
 }
 
-.cta a {
-  color: #2F4858;
-}
-.cta a:link{
-padding: 10px 15px;
-display: block;
-font-weight: 800;
-text-decoration: none;
+strong {
+  color: #EF476F;
 }
 
-.cta a:hover {
-text-decoration: underline;
-}
-.cta a:active {
-color: darkred;
+.site-cta {
+  margin: 40px 0 20px;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  right:0;
-  width: 100%;
-  background-color: red;
-  color: #ddd;
-  font-size: .8em;
+.btn {
+  margin: 2px 0;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.3);
 }
-footer p {
-  text-align: right;
-  margin: 0;
-  margin-right: 20px;
-  padding: 5px;
+
+.btn-primary {
+  background-color: #06D6A0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #00BD87;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus {
+  background-color: #00BD87;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none;
+}
+
+.skills {
+  padding: 30px 0;
+  background-color: #fff;
+  color: #555;
+}
+
+.skills p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.skills h2 {
+  color: #26547C;
+  font-weight: bold;
+  font-size: 2.2em;
+  margin-bottom: 50px;
+}
+
+
+.skills h3 {
+  color: #EF476F;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.skills2 {
+  padding: 20px 0 50px;
+  color: #FCFCFC;
+  background-color: #26547C;
+}
+
+.skills h3 {
+  font-size: 1.5em;
+  font-family: 'Lora', serif;
+}
+
+.skills2 h3 {
+  font-family: 'Lora', serif;
+  font-size: 1.9em;
+}
+
+.skills2 p {
+  font-family: 'Lora', serif;
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin: 10px 40px 0;
+}
+
+.skills2 h3,
+.skills2 p {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.skills2 .glyphicon {
+  margin-top: 50px;
+  font-size: 4em;
+  color: #EF476F;
+}
+
+.skills2 .glyphicon::first-child {
+  margin-top: 0;
+}
+
+.projects {
+  border-radius: 4px;
+  margin: 0 auto 50px;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: #26547C;
+  padding: 15px 30px;
+}
+
+.project {
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.project img:hover {
+  opacity: 0.9;
+}
+
+.optional {
+  display: none;
+}
+
+.footer {
+  color: #fff;
+  margin-top: 100px;
+  background-color: #26547C;
+  padding: 40px 0 30px;
+}
+
+.footer .available {
+  margin-bottom: 80px;
+  color: #06d6a0;
+  font-size: 1.4em;
+}
+
+.footer h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Lora', serif;
+}
+
+.contact-item {
+  font-size: 1.1em;
+}
+
+.contact {
+  margin-bottom: 40px;
+}
+
+.contact-item a {
+  color: #fff;
+}
+
+.contact-item i {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  font-size: 1.7em;
+  display: inline-block;
+  padding-right: 10px;
+  margin-bottom: 5px;
+  color: #ef476f;
+}
+
+.footer_logo {
+  margin-top: 70px;
+}
+
+.footer_logo h5 {
+  margin-top: 20px;
+}
+
+.footer_logo h5 a {
+  color: #ef476f;
 }
 
 @media (min-width: 768px) {
-    .header {
-      max-width: 960px;
-      margin: 50px auto 0 auto;
-    }
-    .cta {
-      width: 300px;
-      margin: 10px auto 0 auto;
-    }
-    .header h1 {
-      margin: 10px 0;
-    }
-    .header h2 {
-      margin-bottom: 30px;
-    }
-    .header .availability{
-      margin-bottom: 50px;
-    }
+  .jumbotron {
+    padding: 200px 0 40px;
+  }
+
+  br {
+    line-height: 1;
+  }
+
+  .skills {
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 0 0;
+  }
+
+  .skills2 {
+    padding: 100px 0;
+  }
+
+  .skills2 .glyphicon {
+    margin-top: 0;
+  }
+
+  .project {
+    padding: 15px;
+    margin-bottom: 0;
+  }
+
+  .projects {
+    margin-top: 80px;
+  }
+
+  .optional {
+    display: block;
+  }
+
+  .navbar-default .navbar-brand {
+    padding-left: 25px;
   }
 }
