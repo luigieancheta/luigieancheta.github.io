@@ -265,6 +265,24 @@ strong {
   color: #ef476f;
 }
 
+.resume {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.resume a {
+  color: #fff;
+}
+
+.resume a:focus, a:hover {
+  color: #fff;
+}
+
+.resume i {
+  padding: 0 5px;
+}
+
 @media (min-width: 768px) {
   .jumbotron {
     padding: 200px 0 40px;
